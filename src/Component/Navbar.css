@@ -1,0 +1,42 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+.n-right ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 2rem;
+}
+
+.n-right ul li:hover{
+    color:rgb(243, 160, 8);
+    cursor: pointer;
+
+}
+
+
+.n-contactBtn{
+    
+    /* some */
+}
+
+.n-contactBtn:hover{
+    color: orange;
+    background: white;
+    border: 1px solid orange ;
+    cursor: pointer;
+}

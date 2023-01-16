@@ -1,0 +1,47 @@
+.services{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    
+    height: 30vh;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+    /* background: rgb(21, 97, 97); */
+}
+.s-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* background-color: blueviolet; */
+    flex: 1;
+}
+.s-left> :nth-child(1) {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.s-left> :nth-child(2) {
+    font-size: 3rem;
+    font-weight: bold;
+    color: orange;
+}
+.s-right{
+    
+    position: relative;
+    /* background-color: yellow; */
+    flex: 1;
+}
+.s-right> :nth-child(1){
+    position:relative; 
+}
+
+.s-right> :nth-child(2){
+    position:relative
+}
+.s-right> :nth-child(3){
+    position:relative
+}
+.i-button{
+    cursor: pointer;
+    width: auto;
+    margin:1rem 0;
+}
